@@ -2,8 +2,67 @@ h1,
 h2 {
     font-family: 'Readex Pro', sans-serif;
     font-weight: 600;
+    font-size: 2.5rem;
 }
 
 p {
     font-family: 'Readex Pro', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+button {
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: 500;
+}
+
+.button-1 {
+    background-color: white;
+    border-radius: 38px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.discover-container {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.discover-content-text {
+    padding: 10px;
+}
+
+.video-image-container {
+    padding: 15px;
+}
+
+.video-image {
+    width: 70vw;
+    position: relative;
+}
+
+.simplifying-box {
+    background-color: #B9FD4C;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.pause-image-container {
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+}
+
+.pause-image {
+    width: 20px;
+}
+
+.simp {
+    margin: 10px 0px;
+    font-size: .75rem;
 }
