@@ -2,13 +2,13 @@ h1,
 h2 {
     font-family: 'Readex Pro', sans-serif;
     font-weight: 600;
-    font-size: 2.5rem;
+    font-size: 2.25rem;
 }
 
 p {
     font-family: 'Readex Pro', sans-serif;
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 button {
@@ -45,10 +45,14 @@ button {
 
 .simplifying-box {
     background-color: #B9FD4C;
-    display: flex;
+    display: inline-flex;
     border: 1px solid black;
     border-radius: 8px;
     align-items: center;
+    position: relative;
+    bottom: 210px;
+    left: 150px;
+    padding-right: 50px;
 }
 
 .pause-image-container {
@@ -59,10 +63,41 @@ button {
 }
 
 .pause-image {
-    width: 20px;
+    width: 15px;
 }
 
 .simp {
-    margin: 10px 0px;
-    font-size: .75rem;
+    margin: 8px 0px;
+    font-size: .6rem;
+}
+
+.advanced-box {
+    display: inline-flex;
+    background-color: #75bcff;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    position: relative;
+    bottom: 130px;
+    right: 30px;
+}
+
+.graph-image {
+    width: 30px;
+    margin: 0px 10px;
+}
+
+.advanced-text {
+    font-size: .5rem;
+    margin: 8px 0;
+}
+
+.strong {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.exclaim-image {
+    width: 12px;
+    margin: 7px
 }
