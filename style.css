@@ -30,6 +30,10 @@ button {
     margin-right: 10vw;
 }
 
+.discover-content-images {
+    height: 200px;
+}
+
 .discover-content-text {
     padding: 10px;
 }
@@ -50,8 +54,10 @@ button {
     border-radius: 8px;
     align-items: center;
     position: relative;
-    bottom: 210px;
-    left: 150px;
+    /* bottom: 210px; */
+    bottom: 100%;
+    left: 60%;
+    /* left: 150px; */
     padding-right: 50px;
 }
 
@@ -77,9 +83,11 @@ button {
     align-items: center;
     border: 1px solid black;
     border-radius: 8px;
-    position: relative;
-    bottom: 130px;
-    right: 30px;
+    position: absolute;
+    /* bottom: 130px;
+    right: 30px; */
+    bottom: 25%;
+    right: 50%;
 }
 
 .graph-image {
@@ -101,3 +109,4 @@ button {
     width: 12px;
     margin: 7px
 }
+
