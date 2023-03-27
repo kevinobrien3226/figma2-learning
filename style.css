@@ -110,3 +110,12 @@ button {
     margin: 7px
 }
 
+.discover-content-images-2 {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+
+.notebook-image {
+    grid-area: 3 / 8 / 2 / 8;
+}
