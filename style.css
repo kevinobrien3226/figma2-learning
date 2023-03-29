@@ -32,6 +32,8 @@ button {
 
 .discover-content-images {
     height: 200px;
+    display: grid;
+    position: relative;
 }
 
 .discover-content-text {
@@ -40,6 +42,9 @@ button {
 
 .video-image-container {
     padding: 15px;
+    grid-area: "blah";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
 }
 
 .video-image {
@@ -53,12 +58,13 @@ button {
     border: 1px solid black;
     border-radius: 8px;
     align-items: center;
-    position: relative;
+    position: absolute;
     /* bottom: 210px; */
-    bottom: 100%;
+    top: 0%;
     left: 60%;
     /* left: 150px; */
     padding-right: 50px;
+    grid-area: "blah";
 }
 
 .pause-image-container {
@@ -86,8 +92,9 @@ button {
     position: absolute;
     /* bottom: 130px;
     right: 30px; */
-    bottom: 25%;
-    right: 50%;
+    top: 50%;
+    left: 0%;
+    grid-area: "blah";
 }
 
 .graph-image {
@@ -114,8 +121,9 @@ button {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(10, 1fr);
+    padding-top: 500px;
 }
 
 .notebook-image {
-    grid-area: 3 / 8 / 2 / 8;
+    grid-area: 3 / 2 / 8 / 8;
 }
