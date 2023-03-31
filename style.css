@@ -122,8 +122,10 @@ button {
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(10, 1fr);
     padding-top: 500px;
+    overflow: hidden;
 }
 
 .notebook-image {
-    grid-area: 3 / 2 / 8 / 8;
+    grid-column-start: 2;
+    grid-row-start: 2;
 }
