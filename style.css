@@ -42,8 +42,8 @@ button {
 }
 
 .discover-container {
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
 
 .discover-content-images {
@@ -137,8 +137,8 @@ button {
 
 .discover-content-images-2 {
     display: grid;
-    grid-template-columns: 1fr 8fr 1fr 1fr 12fr 1fr;
-    grid-template-rows: 1fr 1fr 4fr 1fr 1fr;
+    grid-template-columns: 2fr 12fr 1fr 1fr 16fr 2fr;
+    grid-template-rows: 2fr 2fr 9fr 2fr 2fr;
     overflow: hidden;
 }
 
@@ -147,7 +147,7 @@ button {
     grid-column-end: 6;
     grid-row-start: 2;
     grid-row-end: 5;
-    overflow: hidden;
+    /* overflow: hidden; */
     width: 100%;
 }
 
@@ -169,7 +169,7 @@ button {
     grid-column-end: 5;
     grid-row-start: 4;
     grid-row-end: 5;  */
-    grid-column: 3 /span3;
+    grid-column: 4 /span2;
     grid-row: 4 /span2;
     border: 2px solid black;
     border-radius: 10px;
