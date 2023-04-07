@@ -14,6 +14,7 @@ p {
 .discover-grid {
     display: grid;
     gap: 30px;
+    order: -1;
 }
 
 @media screen and (min-width: 500px) {
@@ -42,8 +43,8 @@ button {
 }
 
 .discover-container {
-    margin-left: 2vw;
-    margin-right: 2vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 .discover-content-images {
@@ -51,14 +52,20 @@ button {
     display: grid;
     /* overflow: scroll; */
     position: relative;
+    order: -1;
 }
 
 .discover-content-text {
     padding: 10px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* max-width: 55ch; */
 }
 
 .video-image-container {
-    padding: 15px;
+    /* padding: 15px; */
+    position: relative;
     /* grid-area: "blah";
     grid-template-columns: 1fr;
     grid-template-rows: 1fr; */
@@ -78,11 +85,12 @@ button {
     align-items: center;
     position: absolute;
     /* bottom: 210px; */
-    top: 1%;
-    left: 70%;
+    bottom: 100%;
+    right: -10px;
     /* left: 150px; */
     padding-right: 20px;
-    grid-area: "blah";
+    /* grid-area: "blah"; */
+    transform: translateY(50%);
 }
 
 .pause-image-container {
